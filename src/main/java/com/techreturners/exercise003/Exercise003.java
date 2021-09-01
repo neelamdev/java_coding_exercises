@@ -18,11 +18,13 @@ public class Exercise003 {
 
 
     int getIceCreamCode(String iceCreamFlavour) {
+        //need some clarification to write code in Exception?
       //  throw new UnsupportedOperationException(("You can delete this statement and add your code here."));
         return iceCreamFlavourMap.get(iceCreamFlavour);
     }
 
     String[] iceCreamFlavours() {
+        //need some clarification to write code in Exception?
         //throw new UnsupportedOperationException(("You can delete this statement and add your code here."));
         String[] flavours= new String[6];
         for(String key :iceCreamFlavourMap.keySet())
