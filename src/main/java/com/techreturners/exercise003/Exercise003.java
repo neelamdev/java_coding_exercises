@@ -26,10 +26,8 @@ public class Exercise003 {
         //throw new UnsupportedOperationException(("You can delete this statement and add your code here."));
         String[] flavours= new String[6];
         for(String key :iceCreamFlavourMap.keySet())
-        //iceCreamFlavourMap.forEach(String s -> System.out.println(iceCreamFlavourMap.get(s)));
-            flavours[iceCreamFlavourMap.get(key)]=key;
-            //System.out.println(key);
-            return flavours;
+              flavours[iceCreamFlavourMap.get(key)]=key;
+             return flavours;
         }
     }
 

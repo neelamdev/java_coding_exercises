@@ -33,13 +33,10 @@ public class Exercise001 {
     public int countLinuxUsers(List<User> users) {
         int userCount;
         userCount = 0;
-
-        //users.forEach(u-> System.out.println(u.getType()));
-        for (User u : users )
+       for (User u : users )
         {
             if(u.getType().equals("Linux"))
                 userCount++;
-            //System.out.println(userCount);
         }
 
         return userCount;
