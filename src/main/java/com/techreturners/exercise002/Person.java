@@ -1,10 +1,10 @@
 package com.techreturners.exercise002;
 
 public class Person {
-    private String personName;
-    private String occupation;
-    private String location;
-    private int age;
+    private final String personName;
+    private final String occupation;
+    private final String location;
+    private final int age;
 
     public Person(String personName, String occupation, String location, int age) {
         this.personName = personName;
@@ -26,6 +26,8 @@ public class Person {
         return location;
     }
 
-    public int getAge() { return age;    }
+    public int getAge() {
+        return age;
+    }
 
 }
