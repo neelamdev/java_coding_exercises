@@ -17,7 +17,6 @@ public class Exercise003 {
         iceCreamFlavourMap.put("Mango Sorbet", 5);
     }
 
-
     int getIceCreamCode(String iceCreamFlavour) {
         return iceCreamFlavourMap.get(iceCreamFlavour);
     }

@@ -32,7 +32,6 @@ public class Exercise001Test {
     }
 
     @Test
-
     public void checkAddVat() {
         Exercise001 ex001 = new Exercise001();
         assertEquals(120, ex001.addVat(100, 20), 0.0);
@@ -42,7 +41,6 @@ public class Exercise001Test {
     }
 
     @Test
-
     public void checkSentenceReverse() {
         Exercise001 ex001 = new Exercise001();
         assertEquals("oof", ex001.reverse("foo"));
@@ -50,7 +48,6 @@ public class Exercise001Test {
     }
 
     @Test
-
     public void checkLinuxUsers() {
         Exercise001 ex001 = new Exercise001();
         User u1 = new User("Heather", "Windows 10", "Windows");

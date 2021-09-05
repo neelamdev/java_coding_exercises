@@ -8,7 +8,6 @@ public class Exercise005 {
 
         return ((input.toLowerCase().chars()
                 .mapToObj(e -> (char) e).filter(c -> c >= 'a' && c <= 'z').collect(Collectors.toSet()).size()) == 26);
-
     }
 
 }

@@ -13,7 +13,6 @@ public class Exercise001 {
     }
 
     public double addVat(double originalPrice, double vatRate) {
-
         double calculatedPrice = (Math.round((originalPrice + originalPrice * vatRate / 100) * 100));
         return calculatedPrice / 100;
     }

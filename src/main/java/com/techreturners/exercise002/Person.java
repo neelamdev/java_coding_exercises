@@ -26,8 +26,6 @@ public class Person {
         return location;
     }
 
-    public int getAge() {
-        return age;
-    }
+    public int getAge() { return age;  }
 
 }

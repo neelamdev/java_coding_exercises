@@ -57,17 +57,19 @@ public class Exercise005Test {
 
     @Test
     public void checkSentenceWithNumbersIsAPangram() {
-        assertTrue(ex005.isPangram("the 1 quick brown fox jumps over the 2 lazy dogs"));
+        assertTrue(ex005.isPangram(" the 1 quick brown fox jumps over the 2 lazy dogs "));
     }
 
     @Test
     public void checkSentenceWithOnlySpecialCharctersIsNotAPangram() {
-        assertFalse(ex005.isPangram("f!@£$%^&*()_><?{|}"));
+        assertFalse(ex005.isPangram("!@£$%^&*()_><?{|}"));
     }
 
     @Test
     public void checkSentenceWithOnlyNumbersIsNotAPangram() {
-        assertFalse(ex005.isPangram("1234567098"));
+        assertFalse(ex005.isPangram("1234567098 "));
     }
+
+    
 
 }

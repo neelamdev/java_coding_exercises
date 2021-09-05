@@ -16,7 +16,5 @@ public class Exercise004 {
         givenDateTime = dateTime;
     }
 
-    public LocalDateTime getDateTime() {
-        return givenDateTime.plusSeconds(gigaSec);
-    }
+    public LocalDateTime getDateTime() { return givenDateTime.plusSeconds(gigaSec); }
 }
